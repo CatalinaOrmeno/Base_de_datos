@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ED396DA-2A86-1D0E-50B8-F7666BA8DA9A" name="ACOMPAÑANTE">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:11:01 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6CE2C830-2938-F550-36C3-45E12CCA4BC9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_habitacion" id="6BC4B5B2-1A89-D676-1FFB-724435942C10">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:56:10 UTC</createdTime>
+<generatorID>8DA3E4D3-56E4-4D13-BF8D-DDB4176B51C0</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>4DAA6073-93C0-3E75-1D20-3CFEFA21B376</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_documento_id" id="847F2C28-C1F1-C19E-050B-53A421BCCBD0">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:56:10 UTC</createdTime>
+<generatorID>8DA3E4D3-56E4-4D13-BF8D-DDB4176B51C0</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>611015D2-8162-6682-275E-486C6244DA2E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

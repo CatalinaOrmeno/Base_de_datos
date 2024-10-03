@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B28C815-D93F-9DBE-B68E-D65DAB401511" name="TITULAR_RESERVA">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:10:45 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6CE2C830-2938-F550-36C3-45E12CCA4BC9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="6F03717D-7663-3514-3569-2D08A1631E98">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:32:53 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="D9435C3B-8790-38F4-C54D-B28FA0187AEE">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:17:36 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ocupacion" id="AF4DE094-D4C0-4AE9-1997-9AE934782568">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:43:06 UTC</createdTime>
+<generatorID>4084543C-4598-2BF4-9D47-4A135F639CB3</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>79BDADA7-A87D-6D1A-AFFD-21F8A062810E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

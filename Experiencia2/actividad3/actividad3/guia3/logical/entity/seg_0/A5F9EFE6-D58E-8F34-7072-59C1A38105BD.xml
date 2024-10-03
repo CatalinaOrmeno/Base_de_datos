@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5F9EFE6-D58E-8F34-7072-59C1A38105BD" name="COMUNA">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:09:24 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_comuna" id="8FBED8A0-911F-8846-5C39-34CEA76CC019">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:21:26 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="974B6DD6-ABD1-DE63-3081-CB7BA7C00173">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:21:26 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad" id="8A6DFBFD-0330-C8C5-EF20-6EAB8D2CFFAE">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:26:58 UTC</createdTime>
+<generatorID>C709F119-7E7B-A87C-D25E-6EFF439CB203</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>5A6B766F-2409-FB75-F9A2-DFC7093D545D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB25044F-9E97-8FD3-A2D7-43EE024B267F" name="COMUNA PK">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:21:33 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FBED8A0-911F-8846-5C39-34CEA76CC019</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

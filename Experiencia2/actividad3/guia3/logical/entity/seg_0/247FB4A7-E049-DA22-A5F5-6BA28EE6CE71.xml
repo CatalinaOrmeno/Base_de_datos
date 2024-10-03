@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="247FB4A7-E049-DA22-A5F5-6BA28EE6CE71" name="HOTEL">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:09:49 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_hotel" id="6ED7971F-545E-FFFE-FE59-A6D25A018DFD">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:21:44 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B93F3C0-640A-4016-436C-C62C1FB59D85">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:22:05 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="760EE03C-928B-B02F-2E2F-F94833B0966B">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:22:09 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_habitaciones" id="BB990445-0841-9B4E-88CA-161061927CF1">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:22:13 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_telefono" id="A67564DE-83D4-0779-4AF6-A022FD883A87">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:22:24 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28BDE27E-4818-026A-5556-83A4788D61A6" name="HOTEL PK">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:22:58 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6ED7971F-545E-FFFE-FE59-A6D25A018DFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

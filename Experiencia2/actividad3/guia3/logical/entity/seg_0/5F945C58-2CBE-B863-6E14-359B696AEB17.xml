@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F945C58-2CBE-B863-6E14-359B696AEB17" name="TELEFONO">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:33:44 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_telefono" id="E7E029B2-0F15-A525-EC91-FB4209EC2372">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:33:59 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="9F703420-B0AB-55C4-8481-DDC9D2959D3C">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:34:21 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C61B151-DE02-3233-97C2-E7A6580EDD0B" name="TELEFONO PK">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:34:34 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E7E029B2-0F15-A525-EC91-FB4209EC2372</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

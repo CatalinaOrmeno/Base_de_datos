@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BBE135E-A163-F7DE-273A-F0545AC5581E" name="CIUDAD">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:09:15 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_ciudad" id="5A6B766F-2409-FB75-F9A2-DFC7093D545D">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:20:59 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DAB60241-BABE-B0B6-E22D-5B680F2AA0E1">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:20:59 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_ciudad1" id="A0DC5B43-CC51-0240-6D61-351D59EE54CC">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:26:51 UTC</createdTime>
+<generatorID>D94D64C0-2159-0E2C-0117-AC2A4F28924C</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>112D677F-7D0A-E4F1-B092-94688AA34DC4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="958E5DD7-568E-B362-9658-7238D4E6DD83" name="CIUDAD PK">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:21:05 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A6B766F-2409-FB75-F9A2-DFC7093D545D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

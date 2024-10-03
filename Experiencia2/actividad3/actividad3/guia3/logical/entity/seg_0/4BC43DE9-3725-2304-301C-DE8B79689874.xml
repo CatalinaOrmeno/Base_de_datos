@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BC43DE9-3725-2304-301C-DE8B79689874" name="RESERVA">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:16:19 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="firma_titular" id="5D8DD3F4-10C2-222C-F65A-16019BD530C1">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:41:10 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firma_encargado" id="F3010A6C-879D-D13D-0910-82046B1A9699">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:41:16 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_habitacion" id="4DAA6073-93C0-3E75-1D20-3CFEFA21B376">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:31:28 UTC</createdTime>
+<generatorID>66F21385-5667-E504-A71F-1221B339F809</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>C73BA868-B5EB-BC48-5987-B85D04272E15</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_doc_registro" id="6D7B0FCE-5D74-0834-BBB3-1C843C271F1F">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:44:50 UTC</createdTime>
+<generatorID>2D6BBF69-3DB0-93A7-7DC5-5054EDCF6181</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>3D2C94AF-F29B-6E0F-7CC8-919D6D91E53B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_documento_id" id="611015D2-8162-6682-275E-486C6244DA2E">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:54:59 UTC</createdTime>
+<generatorID>9C78EBF5-DC80-8FAF-CAC7-4ABD6CE50C75</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>D833D701-E40E-7C66-5AB9-538B7EB4964A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="262D3542-E67B-DBBF-F283-F71C322F4BB5" name="RESERVA PK">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:26:07 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DAA6073-93C0-3E75-1D20-3CFEFA21B376</attributeRef>
+<attributeRef>611015D2-8162-6682-275E-486C6244DA2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

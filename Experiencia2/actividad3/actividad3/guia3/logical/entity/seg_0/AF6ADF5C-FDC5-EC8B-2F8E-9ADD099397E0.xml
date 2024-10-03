@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF6ADF5C-FDC5-EC8B-2F8E-9ADD099397E0" name="AUTORIZACION_TARJETA">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:13:53 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_ingreso" id="AEB34E96-80BE-A37E-DD7B-ADC9427A4883">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:42:34 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_salida" id="834DD5BC-71EE-87A7-D549-80B8A4B9858C">
+<createdBy>PAAPCA02LC0907</createdBy>
+<createdTime>2024-10-01 12:42:40 UTC</createdTime>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_documento_id" id="C31BB246-4993-7962-B049-B2F85782F30F">
+<createdBy>Catalina</createdBy>
+<createdTime>2024-10-01 21:47:38 UTC</createdTime>
+<generatorID>54C801DD-71EE-C06B-A2E3-068DC5D05CE3</generatorID>
+<ownerDesignName>guia3</ownerDesignName>
+<engineerTo>
+<item key="8B5A6209-2B55-D34A-3945-EF8451C38252" value="true"/>
+</engineerTo>
+<referedAttribute>D833D701-E40E-7C66-5AB9-538B7EB4964A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
