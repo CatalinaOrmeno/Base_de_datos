@@ -1,0 +1,25 @@
+-- Tabla region
+INSERT INTO region (codigo_region, nombre_region) VALUES (1, 'Metropolitana');
+INSERT INTO region (codigo_region, nombre_region) VALUES (2, 'Valparaíso');
+INSERT INTO region (codigo_region, nombre_region) VALUES (3, 'Biobío');
+INSERT INTO region (codigo_region, nombre_region) VALUES (4, 'Araucanía');
+INSERT INTO region (codigo_region, nombre_region) VALUES (5, 'Atacama');
+
+-- Tabla comuna
+INSERT INTO comuna (codigo_comuna, nombre_comuna, codigo_region) VALUES (101, 'Santiago', 1);
+INSERT INTO comuna (codigo_comuna, nombre_comuna, codigo_region) VALUES (102, 'Providencia', 1);
+INSERT INTO comuna (codigo_comuna, nombre_comuna, codigo_region) VALUES (201, 'Viña del Mar', 2);
+INSERT INTO comuna (codigo_comuna, nombre_comuna, codigo_region) VALUES (301, 'Concepción', 3);
+INSERT INTO comuna (codigo_comuna, nombre_comuna, codigo_region) VALUES (401, 'Temuco', 4);
+
+-- Tabla producto
+INSERT INTO producto (codigo_producto, nombre_producto, stock, precio) 
+VALUES (3001, 'Laptop', 20, 500000);
+INSERT INTO producto (codigo_producto, nombre_producto, stock, precio) 
+VALUES (3002, 'Smartphone', 50, 200000);
+INSERT INTO producto (codigo_producto, nombre_producto, stock, precio) 
+VALUES (3003, 'Monitor', 30, 150000);
+INSERT INTO producto (codigo_producto, nombre_producto, stock, precio) 
+VALUES (3004, 'Teclado', 100, 20000);
+INSERT INTO producto (codigo_producto, nombre_producto, stock, precio) 
+VALUES (3005, 'Mouse', 120, 15000);
